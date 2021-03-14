@@ -29,15 +29,15 @@ int main()
 	
 	kSelectedPerson = RandSelection(persons, num, kSelection, numComp);
 	cout << "\n" << kSelectedPerson.getId() << " " << kSelectedPerson.getName() << "\n\n"
-		<< "Rand Selection: " << numComp << "\n\n";
+		<< "Rand Selection: " << numComp << "\n";
 	
 	kSelectedPerson = selectHeap(persons_1, num, kSelection, numComp);
 	
-	cout << "selectHeap: " << numComp << "\n\n";
+	cout << "selectHeap: " << numComp << "\n";
 	
 	kSelectedPerson = BST(persons_2, num, kSelection, numComp);
 	
-	cout << "BST: " << numComp << "\n\n";
+	cout << "BST: " << numComp << "\n";
 
 	delete[] persons;
 	delete[] persons_1;
