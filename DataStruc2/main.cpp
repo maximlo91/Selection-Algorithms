@@ -43,6 +43,7 @@ int main()
 	delete[] persons_1;
 	delete[] persons_2;
 
+	system("pause"); // for demo purposes.
 	return 0;
 }
 
